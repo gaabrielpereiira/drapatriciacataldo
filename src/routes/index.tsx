@@ -4,6 +4,7 @@ import DorReconhecimento from "../components/sections/DorReconhecimento";
 import Oportunidade from "../components/sections/Oportunidade";
 import OQueEOClub from "../components/sections/OQueEOClub";
 import VantagensGrupo from "../components/sections/VantagensGrupo";
+import ParaQuemE from "../components/sections/ParaQuemE";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
@@ -36,6 +37,7 @@ function Index() {
       <Oportunidade />
       <OQueEOClub />
       <VantagensGrupo />
+      <ParaQuemE />
       <FixedCTABar />
     </main>
   );
