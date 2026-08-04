@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import HeroPromessa from "../components/sections/HeroPromessa";
+import DorReconhecimento from "../components/sections/DorReconhecimento";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
@@ -28,7 +29,9 @@ function Index() {
   return (
     <main className="bg-bg">
       <HeroPromessa />
+      <DorReconhecimento />
       <FixedCTABar />
+
     </main>
   );
 }
