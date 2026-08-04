@@ -29,7 +29,8 @@ function Index() {
   return (
     <main className="bg-bg">
       <HeroPromessa />
-      <FixedCTABar />
+      <DorReconhecimento />
+
     </main>
   );
 }
