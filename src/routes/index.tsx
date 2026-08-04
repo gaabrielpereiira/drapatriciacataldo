@@ -41,6 +41,7 @@ function Index() {
       <VantagensGrupo />
       <ParaQuemE />
       <Autoridade />
+      <ProvaSocial />
       <FixedCTABar />
     </main>
   );
