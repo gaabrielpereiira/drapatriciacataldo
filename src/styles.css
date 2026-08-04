@@ -146,3 +146,82 @@
     color: var(--color-foreground);
   }
 }
+
+/* ── Brand design system (landing VIP) ───────────────────────────── */
+@theme {
+  --color-bg: oklch(0.937 0.033 68.5);
+  --color-bg-alt: oklch(0.386 0.076 47.8);
+  --color-surface: oklch(0.972 0.014 71.5);
+  --color-accent: oklch(0.494 0.062 47.5);
+  --color-gold: oklch(0.665 0.069 74.5);
+  --color-champagne: oklch(0.844 0.069 76.4);
+  --color-cta: oklch(0.386 0.076 47.8);
+  --color-cta-text: oklch(0.937 0.033 68.5);
+  --color-text: oklch(0.386 0.076 47.8);
+  --color-text-muted: oklch(0.494 0.062 47.5);
+  --color-text-on-dark: oklch(0.937 0.033 68.5);
+  --color-border: oklch(0.665 0.069 74.5);
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --spacing-xl: 80px;
+  --spacing-section: 96px;
+  --spacing-section-mobile: 64px;
+
+  --container-container: 1120px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+  }
+  p {
+    line-height: 1.7;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@utility body-copy {
+  max-width: 65ch;
+  line-height: 1.7;
+}
+
+/* Grain + monograma para dobras escuras */
+@utility grain {
+  position: relative;
+  isolation: isolate;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
