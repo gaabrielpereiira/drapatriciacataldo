@@ -8,7 +8,7 @@ export function FixedCTABar() {
     const hero = document.getElementById("hero");
     if (!hero) return;
     const observer = new IntersectionObserver(
-      ([entry]) => setVisible(!entry.isIntersecting),
+      (entries) => setVisible(!entries[0]?.isIntersecting),
       { threshold: 0 },
     );
     observer.observe(hero);
