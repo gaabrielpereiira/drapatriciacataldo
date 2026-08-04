@@ -39,6 +39,7 @@ function Index() {
       <OQueEOClub />
       <VantagensGrupo />
       <ParaQuemE />
+      <Autoridade />
       <FixedCTABar />
     </main>
   );
