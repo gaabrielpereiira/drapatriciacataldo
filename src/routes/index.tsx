@@ -5,6 +5,7 @@ import Oportunidade from "../components/sections/Oportunidade";
 import OQueEOClub from "../components/sections/OQueEOClub";
 import VantagensGrupo from "../components/sections/VantagensGrupo";
 import ParaQuemE from "../components/sections/ParaQuemE";
+import Autoridade from "../components/sections/Autoridade";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
