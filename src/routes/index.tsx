@@ -3,6 +3,7 @@ import HeroPromessa from "../components/sections/HeroPromessa";
 import DorReconhecimento from "../components/sections/DorReconhecimento";
 import Oportunidade from "../components/sections/Oportunidade";
 import OQueEOClub from "../components/sections/OQueEOClub";
+import VantagensGrupo from "../components/sections/VantagensGrupo";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
@@ -34,6 +35,7 @@ function Index() {
       <DorReconhecimento />
       <Oportunidade />
       <OQueEOClub />
+      <VantagensGrupo />
       <FixedCTABar />
     </main>
   );
