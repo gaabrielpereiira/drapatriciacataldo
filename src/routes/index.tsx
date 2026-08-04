@@ -33,8 +33,8 @@ function Index() {
       <HeroPromessa />
       <DorReconhecimento />
       <Oportunidade />
+      <OQueEOClub />
       <FixedCTABar />
-
     </main>
   );
 }
