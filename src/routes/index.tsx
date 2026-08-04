@@ -30,6 +30,7 @@ function Index() {
     <main className="bg-bg">
       <HeroPromessa />
       <DorReconhecimento />
+      <FixedCTABar />
 
     </main>
   );
