@@ -39,7 +39,6 @@ function Index() {
       <HeroPromessa />
       <DorReconhecimento />
       <Oportunidade />
-      <OQueEOClub />
       <VantagensGrupo />
       <ParaQuemE />
       <Autoridade />
@@ -49,4 +48,5 @@ function Index() {
     </main>
   );
 }
+
 
