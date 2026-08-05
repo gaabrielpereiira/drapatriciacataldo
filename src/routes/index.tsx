@@ -43,11 +43,10 @@ function Index() {
       <VantagensGrupo />
       <ParaQuemE />
       <Autoridade />
-      <ProvaSocial />
-      <FAQ />
       <CTAFinal />
       <Rodape />
       <FixedCTABar />
     </main>
   );
 }
+
