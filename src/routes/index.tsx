@@ -2,13 +2,13 @@ import { createFileRoute } from "@tanstack/react-router";
 import HeroPromessa from "../components/sections/HeroPromessa";
 import DorReconhecimento from "../components/sections/DorReconhecimento";
 import Oportunidade from "../components/sections/Oportunidade";
-import OQueEOClub from "../components/sections/OQueEOClub";
 import VantagensGrupo from "../components/sections/VantagensGrupo";
 import ParaQuemE from "../components/sections/ParaQuemE";
 import Autoridade from "../components/sections/Autoridade";
 import CTAFinal from "../components/sections/CTAFinal";
 import Rodape from "../components/sections/Rodape";
 import FixedCTABar from "../components/FixedCTABar";
+
 
 
 export const Route = createFileRoute("/")({
