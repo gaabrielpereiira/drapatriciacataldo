@@ -43,7 +43,7 @@ export function OQueEOClub() {
 
           {/* Imagem */}
           <div className="reveal w-full">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg border border-gold bg-alt">
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg border border-gold bg-bg-alt">
               <span className="absolute inset-0 flex items-center justify-center px-sm text-center font-body text-[14px] text-champagne">
                 atmosfera-autocuidado.jpg
               </span>
