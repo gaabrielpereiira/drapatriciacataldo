@@ -1,5 +1,6 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import { LINK_DO_GRUPO } from "../../lib/constants";
 
 export function Oportunidade() {
   const revealRef = useScrollReveal<HTMLDivElement>();
@@ -42,7 +43,12 @@ export function Oportunidade() {
 
           {/* CTA */}
           <div className="reveal mt-lg">
-            <CTAButton href="#form" className="w-full md:w-auto">
+            <CTAButton
+              href={LINK_DO_GRUPO}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full md:w-auto"
+            >
               QUERO GARANTIR MEU LUGAR
             </CTAButton>
           </div>

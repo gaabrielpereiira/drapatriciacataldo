@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import { LINK_DO_GRUPO } from "../../lib/constants";
 
 const ITENS = [
   {
@@ -82,7 +83,12 @@ export function VantagensGrupo() {
           </div>
 
           <div className="reveal mt-md">
-            <CTAButton href="#form" variant="onDark">
+            <CTAButton
+              href={LINK_DO_GRUPO}
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="onDark"
+            >
               QUERO ESSAS VANTAGENS
             </CTAButton>
           </div>

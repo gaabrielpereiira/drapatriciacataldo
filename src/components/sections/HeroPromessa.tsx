@@ -1,4 +1,3 @@
-import { useState, type FormEvent } from "react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
@@ -8,18 +7,7 @@ import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
 
 export function HeroPromessa() {
   const revealRef = useScrollReveal<HTMLDivElement>();
-  const [nome, setNome] = useState("");
-  const [whatsapp, setWhatsapp] = useState("");
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const lead = { nome, whatsapp };
-    console.log("lead", lead);
-    window.location.href = LINK_DO_GRUPO;
-  };
-
-  const inputClasses =
-    "h-[56px] w-full rounded-sm border border-accent bg-surface px-md font-body text-[16px] text-text placeholder:text-text-muted focus:border-gold focus:outline-none focus:shadow-[0_0_0_3px_rgba(188,146,92,0.2)]";
 
   return (
     <section id="hero" className="bg-bg">
@@ -60,31 +48,16 @@ export function HeroPromessa() {
               da clínica.
             </p>
 
-            <form
-              id="form"
-              onSubmit={handleSubmit}
-              className="reveal mt-lg flex flex-col gap-sm"
-            >
-              <input
-                type="text"
-                placeholder="Seu nome"
-                value={nome}
-                onChange={(e) => setNome(e.target.value)}
-                aria-label="Seu nome"
-                className={inputClasses}
-              />
-              <input
-                type="tel"
-                placeholder="Seu WhatsApp (com DDD)"
-                value={whatsapp}
-                onChange={(e) => setWhatsapp(e.target.value)}
-                aria-label="Seu WhatsApp (com DDD)"
-                className={inputClasses}
-              />
-              <CTAButton as="button" type="submit" className="mt-sm w-full md:w-auto md:self-start">
+            <div className="reveal mt-lg flex flex-col gap-sm">
+              <CTAButton
+                href={LINK_DO_GRUPO}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto md:self-start"
+              >
                 QUERO ENTRAR NO GRUPO VIP
               </CTAButton>
-            </form>
+            </div>
           </div>
         </div>
       </div>
