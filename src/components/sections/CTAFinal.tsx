@@ -6,8 +6,6 @@ import { LINK_DO_GRUPO } from "../../lib/constants";
 export function CTAFinal() {
   const revealRef = useScrollReveal<HTMLDivElement>();
 
-  const inputClasses =
-    "h-[56px] w-full rounded-sm border border-gold bg-surface px-md font-body text-[16px] text-text placeholder:text-text-muted focus:border-champagne focus:outline-none focus:shadow-[0_0_0_3px_rgba(233,196,148,0.25)]";
 
   return (
     <section id="form-final" className="relative bg-bg-alt grain overflow-hidden">

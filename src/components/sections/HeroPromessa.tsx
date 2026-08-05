@@ -8,8 +8,6 @@ import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
 export function HeroPromessa() {
   const revealRef = useScrollReveal<HTMLDivElement>();
 
-  const inputClasses =
-    "h-[56px] w-full rounded-sm border border-accent bg-surface px-md font-body text-[16px] text-text placeholder:text-text-muted focus:border-gold focus:outline-none focus:shadow-[0_0_0_3px_rgba(188,146,92,0.2)]";
 
   return (
     <section id="hero" className="bg-bg">

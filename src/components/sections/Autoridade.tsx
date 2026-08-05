@@ -1,5 +1,6 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import { LINK_DO_GRUPO } from "../../lib/constants";
 import autoridadeAsset from "../../assets/autoridade-patricia.jpg.asset.json";
 
 
@@ -56,7 +57,12 @@ export function Autoridade() {
 
             {/* CTA */}
             <div className="reveal mx-auto mt-md md:mx-0">
-              <CTAButton href="#form" className="w-full md:w-auto">
+              <CTAButton
+                href={LINK_DO_GRUPO}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto"
+              >
                 QUERO ENTRAR NO GRUPO
               </CTAButton>
             </div>
