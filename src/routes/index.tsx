@@ -8,6 +8,7 @@ import ParaQuemE from "../components/sections/ParaQuemE";
 import Autoridade from "../components/sections/Autoridade";
 import ProvaSocial from "../components/sections/ProvaSocial";
 import FAQ from "../components/sections/FAQ";
+import CTAFinal from "../components/sections/CTAFinal";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
@@ -44,6 +45,7 @@ function Index() {
       <Autoridade />
       <ProvaSocial />
       <FAQ />
+      <CTAFinal />
       <FixedCTABar />
     </main>
   );
