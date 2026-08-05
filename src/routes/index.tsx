@@ -9,6 +9,7 @@ import Autoridade from "../components/sections/Autoridade";
 import ProvaSocial from "../components/sections/ProvaSocial";
 import FAQ from "../components/sections/FAQ";
 import CTAFinal from "../components/sections/CTAFinal";
+import Rodape from "../components/sections/Rodape";
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
