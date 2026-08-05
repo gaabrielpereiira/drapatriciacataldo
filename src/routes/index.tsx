@@ -43,6 +43,7 @@ function Index() {
       <ParaQuemE />
       <Autoridade />
       <ProvaSocial />
+      <FAQ />
       <FixedCTABar />
     </main>
   );
