@@ -1,5 +1,7 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
+
 
 export function Autoridade() {
   const revealRef = useScrollReveal<HTMLDivElement>();
