@@ -1,6 +1,6 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
-import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
+import autoridadeAsset from "../../assets/autoridade-patricia.jpg.asset.json";
 
 
 export function Autoridade() {
