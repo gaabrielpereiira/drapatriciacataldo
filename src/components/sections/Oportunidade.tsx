@@ -13,10 +13,16 @@ export function Oportunidade() {
         <div ref={revealRef}>
           {/* Selo */}
           <div className="reveal mx-auto mb-lg flex aspect-[1/1] w-[96px] items-center justify-center overflow-hidden rounded-lg border border-gold bg-surface md:w-[120px]">
-            <span className="px-sm text-center font-body text-[12px] text-text-muted">
-              selo-7-anos.png
-            </span>
+            <img
+              src={seloAsset.url}
+              alt="Selo 7 anos Clínica Patrícia Cataldo"
+              loading="lazy"
+              width={1024}
+              height={1024}
+              className="h-full w-full object-cover"
+            />
           </div>
+
 
           {/* Título */}
           <h2 className="reveal font-heading text-[clamp(26px,2.6vw,38px)] font-semibold leading-[1.2] text-text">
