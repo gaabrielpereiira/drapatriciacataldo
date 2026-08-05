@@ -1,6 +1,6 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
-import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
+import autoridadeAsset from "../../assets/autoridade-patricia.jpg.asset.json";
 
 
 export function Autoridade() {
@@ -17,7 +17,7 @@ export function Autoridade() {
           <div className="reveal w-full">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-gold bg-bg-alt">
               <img
-                src={heroAsset.url}
+                src={autoridadeAsset.url}
                 alt="Dra. Patrícia Cataldo"
                 loading="lazy"
                 className="h-full w-full object-cover"
