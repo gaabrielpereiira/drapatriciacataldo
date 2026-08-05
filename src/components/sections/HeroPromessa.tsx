@@ -2,6 +2,8 @@ import { useState, type FormEvent } from "react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
+import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
+
 
 
 export function HeroPromessa() {
@@ -25,12 +27,16 @@ export function HeroPromessa() {
         <div className="grid items-center gap-lg md:grid-cols-[55fr_45fr]">
           {/* Imagem — topo no mobile, direita no desktop */}
           <div className="md:order-2">
-            <div className="flex aspect-[4/5] w-full items-center justify-center overflow-hidden rounded-lg border border-gold bg-surface">
-              <span className="px-md text-center font-body text-[14px] text-text-muted">
-                hero-patricia-clinica.jpg
-              </span>
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg border border-gold bg-surface">
+              <img
+                src={heroAsset.url}
+                alt="Dra. Patrícia Cataldo"
+                fetchPriority="high"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
+
 
           {/* Texto + formulário */}
           <div ref={revealRef} className="md:order-1">
