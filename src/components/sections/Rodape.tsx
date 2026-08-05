@@ -10,7 +10,7 @@ export function Rodape() {
           [Razão social · CNPJ · Endereço da clínica em Juiz de Fora · Contato]
         </p>
 
-        <p className="mt-xs font-body text-[12px] text-[#C9A98C]">
+        <p className="mt-xs font-body text-[12px] text-champagne/80">
           © Todos os direitos reservados.
         </p>
       </div>

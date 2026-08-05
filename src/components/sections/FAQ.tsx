@@ -63,7 +63,7 @@ export function FAQ() {
                     type="button"
                     onClick={() => toggle(index)}
                     aria-expanded={isAberto}
-                    className="flex w-full items-center justify-between gap-md px-5 py-[18px] text-left transition-colors hover:bg-surface/80"
+                    className="flex min-h-[44px] w-full items-center justify-between gap-md px-5 py-[18px] text-left transition-colors hover:bg-surface/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-inset"
                   >
                     <span className="font-body text-[16px] font-semibold leading-[1.35] text-text md:text-[17px]">
                       {item.pergunta}
@@ -74,8 +74,8 @@ export function FAQ() {
                     >
                       <Icon
                         icon="solar:alt-arrow-down-outline"
-                        width={22}
-                        height={22}
+                        width={24}
+                        height={24}
                         className="text-gold"
                         aria-hidden="true"
                       />

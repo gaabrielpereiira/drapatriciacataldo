@@ -17,14 +17,14 @@ export function FixedCTABar() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 flex items-center justify-center gap-4 bg-cta px-[24px] py-[12px] text-text-on-dark transition-transform duration-300 ease-in-out ${
+      className={`fixed bottom-0 left-0 right-0 z-50 grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 bg-cta px-[16px] py-[12px] text-text-on-dark transition-transform duration-300 ease-in-out md:flex md:justify-center md:gap-4 md:px-[24px] ${
         visible ? "translate-y-0" : "translate-y-full"
       }`}
     >
-      <span className="font-body text-[14px] leading-snug">
+      <span className="min-w-0 font-body text-[13px] leading-snug md:text-[14px]">
         Entre no grupo VIP e garanta a condição de fundadora
       </span>
-      <CTAButton href="#form" variant="onDark" className="shrink-0">
+      <CTAButton href="#form-final" variant="onDark" className="shrink-0 px-[20px] py-[12px] text-[14px] md:px-[32px] md:py-[18px] md:text-[16px]">
         Quero entrar
       </CTAButton>
     </div>
