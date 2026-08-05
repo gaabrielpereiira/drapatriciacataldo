@@ -1,5 +1,7 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
+
 
 export function Autoridade() {
   const revealRef = useScrollReveal<HTMLDivElement>();
@@ -14,9 +16,12 @@ export function Autoridade() {
           {/* Imagem */}
           <div className="reveal w-full">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-gold bg-bg-alt">
-              <span className="absolute inset-0 flex items-center justify-center px-sm text-center font-body text-[14px] text-champagne">
-                retrato-patricia.jpg
-              </span>
+              <img
+                src={heroAsset.url}
+                alt="Dra. Patrícia Cataldo"
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
 
