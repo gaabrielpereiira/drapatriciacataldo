@@ -45,6 +45,7 @@ function Index() {
       <Autoridade />
       <ProvaSocial />
       <FAQ />
+      <CTAFinal />
       <FixedCTABar />
     </main>
   );
