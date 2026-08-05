@@ -50,31 +50,16 @@ export function HeroPromessa() {
               da clínica.
             </p>
 
-            <form
-              id="form"
-              onSubmit={handleSubmit}
-              className="reveal mt-lg flex flex-col gap-sm"
-            >
-              <input
-                type="text"
-                placeholder="Seu nome"
-                value={nome}
-                onChange={(e) => setNome(e.target.value)}
-                aria-label="Seu nome"
-                className={inputClasses}
-              />
-              <input
-                type="tel"
-                placeholder="Seu WhatsApp (com DDD)"
-                value={whatsapp}
-                onChange={(e) => setWhatsapp(e.target.value)}
-                aria-label="Seu WhatsApp (com DDD)"
-                className={inputClasses}
-              />
-              <CTAButton as="button" type="submit" className="mt-sm w-full md:w-auto md:self-start">
+            <div className="reveal mt-lg flex flex-col gap-sm">
+              <CTAButton
+                href={LINK_DO_GRUPO}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full md:w-auto md:self-start"
+              >
                 QUERO ENTRAR NO GRUPO VIP
               </CTAButton>
-            </form>
+            </div>
           </div>
         </div>
       </div>

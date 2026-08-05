@@ -33,39 +33,21 @@ export function CTAFinal() {
             As{" "}
             <strong className="font-semibold">condições de fundadora</strong>{" "}
             são só pra quem está no grupo, e as vagas do Club são{" "}
-            <strong className="font-semibold">limitadas</strong>. Deixe seu nome
-            e WhatsApp pra entrar agora.
+            <strong className="font-semibold">limitadas</strong>. Clique no botão
+            abaixo e entre agora.
           </p>
 
-          <form
-            onSubmit={handleSubmit}
-            className="reveal mt-lg flex flex-col gap-sm"
-          >
-            <input
-              type="text"
-              placeholder="Seu nome"
-              value={nome}
-              onChange={(e) => setNome(e.target.value)}
-              aria-label="Seu nome"
-              className={inputClasses}
-            />
-            <input
-              type="tel"
-              placeholder="Seu WhatsApp (com DDD)"
-              value={whatsapp}
-              onChange={(e) => setWhatsapp(e.target.value)}
-              aria-label="Seu WhatsApp (com DDD)"
-              className={inputClasses}
-            />
+          <div className="reveal mt-lg flex flex-col gap-sm">
             <CTAButton
-              as="button"
-              type="submit"
+              href={LINK_DO_GRUPO}
+              target="_blank"
+              rel="noopener noreferrer"
               variant="onDark"
-              className="mt-sm w-full md:w-auto md:self-start"
+              className="w-full md:w-auto md:self-start"
             >
               QUERO ENTRAR NO GRUPO VIP
             </CTAButton>
-          </form>
+          </div>
 
           <p className="reveal mt-lg font-heading text-[19px] italic text-champagne">
             Quando o Club abrir, quem estiver aqui dentro escolhe primeiro.
