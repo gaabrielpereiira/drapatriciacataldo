@@ -1,6 +1,8 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
+import seloAsset from "../../assets/selo-7-anos.png.asset.json";
+
 
 export function Oportunidade() {
   const revealRef = useScrollReveal<HTMLDivElement>();
