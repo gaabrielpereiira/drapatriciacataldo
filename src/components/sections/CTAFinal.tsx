@@ -1,4 +1,3 @@
-import { useState, type FormEvent } from "react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
@@ -6,15 +5,6 @@ import { LINK_DO_GRUPO } from "../../lib/constants";
 
 export function CTAFinal() {
   const revealRef = useScrollReveal<HTMLDivElement>();
-  const [nome, setNome] = useState("");
-  const [whatsapp, setWhatsapp] = useState("");
-
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const lead = { nome, whatsapp };
-    console.log("lead", lead);
-    window.location.href = LINK_DO_GRUPO;
-  };
 
   const inputClasses =
     "h-[56px] w-full rounded-sm border border-gold bg-surface px-md font-body text-[16px] text-text placeholder:text-text-muted focus:border-champagne focus:outline-none focus:shadow-[0_0_0_3px_rgba(233,196,148,0.25)]";

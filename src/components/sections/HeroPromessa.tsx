@@ -1,4 +1,3 @@
-import { useState, type FormEvent } from "react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
@@ -8,15 +7,6 @@ import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
 
 export function HeroPromessa() {
   const revealRef = useScrollReveal<HTMLDivElement>();
-  const [nome, setNome] = useState("");
-  const [whatsapp, setWhatsapp] = useState("");
-
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const lead = { nome, whatsapp };
-    console.log("lead", lead);
-    window.location.href = LINK_DO_GRUPO;
-  };
 
   const inputClasses =
     "h-[56px] w-full rounded-sm border border-accent bg-surface px-md font-body text-[16px] text-text placeholder:text-text-muted focus:border-gold focus:outline-none focus:shadow-[0_0_0_3px_rgba(188,146,92,0.2)]";
