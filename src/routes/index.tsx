@@ -20,11 +20,11 @@ export const Route = createFileRoute("/")({
         content:
           "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica.",
       },
-      { property: "og:title", content: "Club do Botox · Grupo VIP" },
+      { property: "og:title", content: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
       {
         property: "og:description",
         content:
-          "Sua pele descansada o ano inteiro, sem ter que lembrar da sua toxina. Condição de fundadora por tempo limitado.",
+          "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
