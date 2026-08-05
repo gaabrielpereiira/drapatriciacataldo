@@ -47,6 +47,7 @@ function Index() {
       <ProvaSocial />
       <FAQ />
       <CTAFinal />
+      <Rodape />
       <FixedCTABar />
     </main>
   );
