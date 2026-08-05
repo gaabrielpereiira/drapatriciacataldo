@@ -24,7 +24,7 @@ export function FixedCTABar() {
       <span className="min-w-0 font-body text-[13px] leading-snug md:text-[14px]">
         Entre no grupo VIP e garanta a condição de fundadora
       </span>
-      <CTAButton href="#form" variant="onDark" className="shrink-0">
+      <CTAButton href="#form-final" variant="onDark" className="shrink-0 px-[20px] py-[12px] text-[14px] md:px-[32px] md:py-[18px] md:text-[16px]">
         Quero entrar
       </CTAButton>
     </div>

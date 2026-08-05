@@ -1,8 +1,8 @@
 import { useState, type FormEvent } from "react";
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
+import { LINK_DO_GRUPO } from "../../lib/constants";
 
-const LINK_DO_GRUPO = "https://chat.whatsapp.com/LINK_DO_GRUPO";
 
 export function CTAFinal() {
   const revealRef = useScrollReveal<HTMLDivElement>();
