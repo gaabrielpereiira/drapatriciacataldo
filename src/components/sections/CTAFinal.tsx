@@ -37,7 +37,7 @@ export function CTAFinal() {
               target="_blank"
               rel="noopener noreferrer"
               variant="onDark"
-              className="w-full md:w-auto md:self-start"
+              className="w-full md:w-auto"
             >
               QUERO ENTRAR NO GRUPO VIP
             </CTAButton>
