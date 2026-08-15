@@ -149,18 +149,18 @@
 
 /* ── Brand design system (landing VIP) ───────────────────────────── */
 @theme {
-  --color-bg: oklch(0.937 0.033 68.5);
-  --color-bg-alt: oklch(0.386 0.076 47.8);
-  --color-surface: oklch(0.972 0.014 71.5);
-  --color-accent: oklch(0.494 0.062 47.5);
-  --color-gold: oklch(0.665 0.069 74.5);
-  --color-champagne: oklch(0.844 0.069 76.4);
-  --color-cta: oklch(0.386 0.076 47.8);
-  --color-cta-text: oklch(0.937 0.033 68.5);
-  --color-text: oklch(0.386 0.076 47.8);
-  --color-text-muted: oklch(0.494 0.062 47.5);
-  --color-text-on-dark: oklch(0.937 0.033 68.5);
-  --color-border: oklch(0.665 0.069 74.5);
+  --color-bg: #F8E8D9;
+  --color-bg-alt: #74401F;
+  --color-surface: #FBF2E8;
+  --color-accent: #8A5B3F;
+  --color-gold: #BC925C;
+  --color-champagne: #EFCB9E;
+  --color-cta: #74401F;
+  --color-cta-text: #F8E8D9;
+  --color-text: #74401F;
+  --color-text-muted: #8A5B3F;
+  --color-text-on-dark: #F8E8D9;
+  --color-border: #BC925C;
 
   --font-heading: "Playfair Display", serif;
   --font-body: "Montserrat", sans-serif;

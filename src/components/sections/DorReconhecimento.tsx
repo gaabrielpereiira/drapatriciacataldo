@@ -2,10 +2,11 @@ import { Icon } from "@iconify/react";
 import useScrollReveal from "../../hooks/useScrollReveal";
 
 const VOZES = [
-  "Eu não me reconheço mais nas fotos.",
-  "Parece que eu estou sempre cansada.",
-  "Não me sinto tão velha quanto eu apareço.",
-  "Faço um procedimento, resolve por uns meses e some.",
+  "Você gosta de se cuidar, mas nem sempre consegue manter uma rotina de beleza com a constância que gostaria.",
+  "Acaba deixando para depois e, quando percebe, já se passaram meses.",
+  "Gostaria de ter seus momentos de cuidado planejados ao longo do ano.",
+  "Valoriza uma aparência descansada, natural e sem excessos.",
+  "Prefere manter o que já é bonito em você, acompanhando cada fase com leveza.",
 ];
 
 export function DorReconhecimento() {
@@ -17,7 +18,7 @@ export function DorReconhecimento() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 z-0 opacity-[0.06]"
         style={{
-          backgroundImage: "url('/grafismo-monograma-cp.svg')",
+          backgroundImage: "url('/monograma-cp.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "420px",
@@ -28,11 +29,6 @@ export function DorReconhecimento() {
           <h2 className="reveal font-heading text-[clamp(26px,2.6vw,38px)] font-semibold leading-[1.2] text-text-on-dark">
             Você se reconhece aqui?
           </h2>
-
-          <p className="reveal mx-auto mt-md max-w-[52ch] font-body text-[16px] leading-[1.7] text-text-on-dark md:text-[18px]">
-            Tem dias que você olha o espelho e sente que o seu rosto não combina com a sua
-            energia.
-          </p>
 
           {VOZES.map((voz, i) => (
             <div key={voz} className="reveal mt-lg">
@@ -63,8 +59,7 @@ export function DorReconhecimento() {
               style={{ backgroundColor: "rgba(188,146,92,0.35)" }}
             />
             <p className="mx-auto mt-md max-w-[46ch] font-body text-[17px] italic leading-[1.7] text-champagne">
-              O incômodo não é vaidade. É a sensação de que a sua imagem parou de te
-              representar.
+              Porque não é sobre mudar. É sobre se reconhecer e preservar o que já é seu.
             </p>
           </div>
         </div>

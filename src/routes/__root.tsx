@@ -77,18 +77,38 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
-      { name: "description", content: "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica." },
+      { title: "Pati Concept Club · Grupo VIP — Dra. Patrícia Cataldo" },
+      {
+        name: "description",
+        content:
+          "Entre no Grupo VIP e conheça em primeira mão o Pati Concept Club, o plano anual de toxina botulínica da Dra. Patrícia Cataldo. Condição especial para as primeiras integrantes.",
+      },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
-      { property: "og:description", content: "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica." },
+      { property: "og:title", content: "Pati Concept Club · Grupo VIP — Dra. Patrícia Cataldo" },
+      {
+        property: "og:description",
+        content:
+          "Entre no Grupo VIP e conheça em primeira mão o Pati Concept Club, o plano anual de toxina botulínica da Dra. Patrícia Cataldo. Condição especial para as primeiras integrantes.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
-      { name: "twitter:description", content: "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d0d67e9-9f84-40bf-93e8-66ad2c8970af/id-preview-0e82bf73--9d2901bd-3d2d-4477-bced-467e5df26d64.lovable.app-1785949911490.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d0d67e9-9f84-40bf-93e8-66ad2c8970af/id-preview-0e82bf73--9d2901bd-3d2d-4477-bced-467e5df26d64.lovable.app-1785949911490.png" },
+      { name: "twitter:title", content: "Pati Concept Club · Grupo VIP — Dra. Patrícia Cataldo" },
+      {
+        name: "twitter:description",
+        content:
+          "Entre no Grupo VIP e conheça em primeira mão o Pati Concept Club, o plano anual de toxina botulínica da Dra. Patrícia Cataldo. Condição especial para as primeiras integrantes.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d0d67e9-9f84-40bf-93e8-66ad2c8970af/id-preview-0e82bf73--9d2901bd-3d2d-4477-bced-467e5df26d64.lovable.app-1785949911490.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7d0d67e9-9f84-40bf-93e8-66ad2c8970af/id-preview-0e82bf73--9d2901bd-3d2d-4477-bced-467e5df26d64.lovable.app-1785949911490.png",
+      },
     ],
     links: [
       {

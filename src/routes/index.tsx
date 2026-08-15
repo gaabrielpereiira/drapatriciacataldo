@@ -2,29 +2,26 @@ import { createFileRoute } from "@tanstack/react-router";
 import HeroPromessa from "../components/sections/HeroPromessa";
 import DorReconhecimento from "../components/sections/DorReconhecimento";
 import Oportunidade from "../components/sections/Oportunidade";
-import VantagensGrupo from "../components/sections/VantagensGrupo";
 import ParaQuemE from "../components/sections/ParaQuemE";
 import Autoridade from "../components/sections/Autoridade";
 import CTAFinal from "../components/sections/CTAFinal";
 import Rodape from "../components/sections/Rodape";
 import FixedCTABar from "../components/FixedCTABar";
 
-
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
+      { title: "Pati Concept Club · Grupo VIP — Dra. Patrícia Cataldo" },
       {
         name: "description",
         content:
-          "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica.",
+          "Entre no Grupo VIP e conheça em primeira mão o Pati Concept Club, o plano anual de toxina botulínica da Dra. Patrícia Cataldo. Condição especial para as primeiras integrantes.",
       },
-      { property: "og:title", content: "Club do Botox · Grupo VIP — Dra. Patrícia Cataldo" },
+      { property: "og:title", content: "Pati Concept Club · Grupo VIP — Dra. Patrícia Cataldo" },
       {
         property: "og:description",
         content:
-          "Entre no grupo VIP do Club do Botox da Dra. Patrícia Cataldo e garanta a condição de fundadora dos 7 anos da clínica.",
+          "Entre no Grupo VIP e conheça em primeira mão o Pati Concept Club, o plano anual de toxina botulínica da Dra. Patrícia Cataldo. Condição especial para as primeiras integrantes.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -39,7 +36,6 @@ function Index() {
       <HeroPromessa />
       <DorReconhecimento />
       <Oportunidade />
-      <VantagensGrupo />
       <ParaQuemE />
       <Autoridade />
       <CTAFinal />
@@ -48,5 +44,3 @@ function Index() {
     </main>
   );
 }
-
-

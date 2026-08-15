@@ -1,8 +1,6 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
-import autoridadeAsset from "../../assets/autoridade-patricia.jpg.asset.json";
-
 
 export function Autoridade() {
   const revealRef = useScrollReveal<HTMLDivElement>();
@@ -18,7 +16,7 @@ export function Autoridade() {
           <div className="reveal w-full">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg border border-gold bg-bg-alt">
               <img
-                src={autoridadeAsset.url}
+                src="/autoridade-patricia.jpg"
                 alt="Dra. Patrícia Cataldo"
                 loading="lazy"
                 className="h-full w-full object-cover"
@@ -35,11 +33,12 @@ export function Autoridade() {
 
             {/* Corpo */}
             <p className="reveal mx-auto mt-md max-w-[54ch] text-center font-body text-[16px] leading-[1.7] text-text md:mx-0 md:text-left md:text-[18px]">
-              Cirurgiã-dentista e especialista em Harmonização Orofacial, com{" "}
-              <strong className="font-semibold">7 anos de clínica própria</strong>{" "}
-              em Juiz de Fora. [inserir formação, especializações em HOF e tempo
-              de atuação]. O compromisso dela é sempre o mesmo: realçar a beleza
-              com <strong className="font-semibold">naturalidade e segurança</strong>.
+              Cirurgiã-dentista, com <strong className="font-semibold">12 anos de formação</strong>,
+              e especialista em Harmonização Orofacial. Ao longo dessa trajetória, meu trabalho
+              sempre teve o mesmo propósito: unir{" "}
+              <strong className="font-semibold">conhecimento, técnica e naturalidade</strong> para
+              valorizar a beleza de cada paciente, respeitando sua individualidade. Porque cada
+              rosto é único — e merece ser cuidado de forma personalizada, segura e consciente.
             </p>
 
             {/* Hairline + frase-âncora */}
@@ -50,8 +49,7 @@ export function Autoridade() {
                 style={{ backgroundColor: "rgba(188,146,92,0.35)" }}
               />
               <p className="mx-auto mt-md max-w-[48ch] text-center font-body text-[17px] italic leading-[1.7] text-accent md:mx-0 md:text-left">
-                Um rosto é anatomia. Por isso ele merece as mãos de quem entende de
-                anatomia.
+                Naturalidade não é fazer menos. É saber exatamente o que fazer.
               </p>
             </div>
 
@@ -63,7 +61,7 @@ export function Autoridade() {
                 rel="noopener noreferrer"
                 className="w-full md:w-auto"
               >
-                QUERO ENTRAR NO GRUPO
+                QUERO ENTRAR NO GRUPO VIP
               </CTAButton>
             </div>
           </div>

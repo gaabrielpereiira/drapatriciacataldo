@@ -3,24 +3,30 @@ import useScrollReveal from "../../hooks/useScrollReveal";
 
 const ITENS = [
   {
-    texto: "Você quer parecer ",
-    negrito: "descansada e natural",
-    resto: ", sem rosto artificial.",
-  },
-  {
-    texto: "Você já faz toxina e quer manter a frequência certa, ou quer começar com planejamento.",
-    negrito: "",
-    resto: "",
-  },
-  {
-    texto: "Você prefere cuidar do rosto o ano todo, sem susto e sem correria.",
-    negrito: "",
-    resto: "",
-  },
-  {
-    texto: "Você mora em ",
-    negrito: "Juiz de Fora ou região",
+    texto: "Para você que valoriza uma aparência ",
+    negrito: "descansada, natural e sem excessos",
     resto: ".",
+  },
+  {
+    texto: "Para quem já faz toxina e quer manter seus resultados com mais tranquilidade.",
+    negrito: "",
+    resto: "",
+  },
+  {
+    texto: "Para quem deseja começar de forma planejada.",
+    negrito: "",
+    resto: "",
+  },
+  {
+    texto:
+      "Para quem acredita que pequenos cuidados, feitos no tempo certo, fazem toda a diferença.",
+    negrito: "",
+    resto: "",
+  },
+  {
+    texto: "Para mulheres de ",
+    negrito: "Juiz de Fora e região",
+    resto: " que querem viver a experiência Pati Concept.",
   },
 ];
 
@@ -32,7 +38,7 @@ export function ParaQuemE() {
       <div className="mx-auto max-w-[880px] px-md py-section-mobile md:px-lg md:py-section">
         <div ref={revealRef} className="text-center">
           <h2 className="reveal font-heading text-[clamp(26px,2.6vw,38px)] font-semibold leading-[1.2] text-text">
-            Isso é pra você se
+            Para quem é o PATI CONCEPT CLUB?
           </h2>
 
           <div className="reveal mt-lg grid grid-cols-1 gap-md md:grid-cols-2">
@@ -64,7 +70,8 @@ export function ParaQuemE() {
               style={{ backgroundColor: "rgba(188,146,92,0.35)" }}
             />
             <p className="mx-auto mt-md max-w-[50ch] font-body text-[17px] italic leading-[1.7] text-accent">
-              Você bem cuidada e natural, do jeito que ninguém percebe o que foi feito.
+              Pati Concept é se cuidar sem que ninguém perceba o que foi feito — apenas que você
+              está ainda mais bonita.
             </p>
           </div>
         </div>

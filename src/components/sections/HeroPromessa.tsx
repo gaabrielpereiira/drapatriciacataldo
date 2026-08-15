@@ -1,23 +1,19 @@
 import CTAButton from "../CTAButton";
 import useScrollReveal from "../../hooks/useScrollReveal";
 import { LINK_DO_GRUPO } from "../../lib/constants";
-import heroAsset from "../../assets/hero-patricia-clinica.jpg.asset.json";
-
-
 
 export function HeroPromessa() {
   const revealRef = useScrollReveal<HTMLDivElement>();
-
 
   return (
     <section id="hero" className="bg-bg">
       <div className="mx-auto max-w-container px-md py-section-mobile md:px-lg md:py-section">
         <div className="grid items-center gap-lg md:grid-cols-[55fr_45fr]">
-          {/* Imagem — topo no mobile, direita no desktop */}
-          <div className="md:order-2">
+          {/* Imagem — depois do texto no mobile, direita no desktop */}
+          <div className="order-2">
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg border border-gold bg-surface">
               <img
-                src={heroAsset.url}
+                src="/hero-patricia.jpg"
                 alt="Dra. Patrícia Cataldo"
                 fetchPriority="high"
                 className="h-full w-full object-cover"
@@ -25,27 +21,26 @@ export function HeroPromessa() {
             </div>
           </div>
 
-
           {/* Texto + formulário */}
-          <div ref={revealRef} className="md:order-1">
+          <div ref={revealRef} className="order-1">
             <p className="reveal font-body text-[12px] font-semibold uppercase tracking-[0.15em] text-gold">
-              CLUB DO BOTOX · GRUPO VIP
+              PATI CONCEPT CLUB
             </p>
 
             <p className="reveal mt-sm font-body text-[15px] italic text-text-muted">
-              Cuidar do rosto não precisa ser uma corrida contra o espelho.
+              Cuidar de você pode ser mais leve quando existe um plano.
             </p>
 
             <h1 className="reveal mt-sm font-heading text-[28px] font-semibold leading-[1.15] text-text md:text-[clamp(28px,3vw,46px)]">
-              Sua pele descansada o ano inteiro, sem ter que lembrar da sua toxina
+              Beleza que acompanha você o ano inteiro.
             </h1>
 
             <p className="reveal mt-md max-w-[52ch] font-body text-[16px] leading-[1.7] text-text md:text-[18px]">
-              Entre no grupo VIP e seja uma das primeiras a conhecer o{" "}
-              <strong className="font-semibold">Club do Botox</strong> da Dra. Patrícia
-              Cataldo, com a{" "}
-              <strong className="font-semibold">condição de fundadora</strong> dos 7 anos
-              da clínica.
+              Entre no Grupo VIP e conheça, em primeira mão, o{" "}
+              <strong className="font-semibold">PATI CONCEPT CLUB</strong> — uma experiência de
+              cuidado planejado, criada para celebrar os{" "}
+              <strong className="font-semibold">7 anos da clínica</strong>. Condição especial para
+              as primeiras integrantes.
             </p>
 
             <div className="reveal mt-lg flex flex-col gap-sm">
