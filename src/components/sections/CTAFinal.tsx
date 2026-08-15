@@ -21,7 +21,7 @@ export function CTAFinal() {
             Faça parte do Grupo VIP
           </h2>
 
-          <p className="reveal mt-md mx-auto max-w-[46ch] font-body text-[16px] leading-[1.7] text-text-on-dark md:text-[18px]">
+          <p className="reveal mt-md mx-auto max-w-[46ch] text-justify font-body text-[16px] leading-[1.7] text-text-on-dark md:text-[18px]">
             A primeira edição do <strong className="font-semibold">PATI CONCEPT CLUB</strong> será
             especial — e também será limitada. As fundadoras terão acesso a uma{" "}
             <strong className="font-semibold">condição exclusiva de lançamento</strong>, criada para
@@ -31,13 +31,13 @@ export function CTAFinal() {
             encerradas. Se você quer estar entre as primeiras, esse é o momento.
           </p>
 
-          <div className="reveal mt-lg flex flex-col gap-sm">
+          <div className="reveal mt-lg flex flex-col items-center gap-sm">
             <CTAButton
               href={LINK_DO_GRUPO}
               target="_blank"
               rel="noopener noreferrer"
               variant="onDark"
-              className="w-full md:w-auto md:self-start"
+              className="w-full md:w-auto"
             >
               QUERO ENTRAR NO GRUPO VIP
             </CTAButton>
