@@ -5,7 +5,7 @@ import Oportunidade from "../components/sections/Oportunidade";
 import ParaQuemE from "../components/sections/ParaQuemE";
 import Autoridade from "../components/sections/Autoridade";
 import CTAFinal from "../components/sections/CTAFinal";
-import Rodape from "../components/sections/Rodape";
+
 import FixedCTABar from "../components/FixedCTABar";
 
 export const Route = createFileRoute("/")({
@@ -39,7 +39,7 @@ function Index() {
       <ParaQuemE />
       <Autoridade />
       <CTAFinal />
-      <Rodape />
+
       <FixedCTABar />
     </main>
   );
