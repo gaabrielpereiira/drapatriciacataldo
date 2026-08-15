@@ -21,7 +21,7 @@ export function CTAFinal() {
             Faça parte do Grupo VIP
           </h2>
 
-          <p className="reveal mt-md mx-auto max-w-[46ch] font-body text-[16px] leading-[1.7] text-text-on-dark md:text-[18px]">
+          <p className="reveal mt-md mx-auto max-w-[46ch] text-justify font-body text-[16px] leading-[1.7] text-text-on-dark md:text-[18px]">
             A primeira edição do <strong className="font-semibold">PATI CONCEPT CLUB</strong> será
             especial — e também será limitada. As fundadoras terão acesso a uma{" "}
             <strong className="font-semibold">condição exclusiva de lançamento</strong>, criada para
