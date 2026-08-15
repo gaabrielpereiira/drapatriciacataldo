@@ -31,7 +31,7 @@ export function CTAFinal() {
             encerradas. Se você quer estar entre as primeiras, esse é o momento.
           </p>
 
-          <div className="reveal mt-lg flex flex-col gap-sm">
+          <div className="reveal mt-lg flex flex-col items-center gap-sm">
             <CTAButton
               href={LINK_DO_GRUPO}
               target="_blank"
