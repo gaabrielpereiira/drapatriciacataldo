@@ -39,7 +39,7 @@ function Index() {
       <ParaQuemE />
       <Autoridade />
       <CTAFinal />
-      <Rodape />
+
       <FixedCTABar />
     </main>
   );
