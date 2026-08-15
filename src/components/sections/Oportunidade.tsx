@@ -16,7 +16,7 @@ export function Oportunidade() {
           </h2>
 
           {/* Corpo */}
-          <p className="reveal mx-auto mt-md max-w-[54ch] font-body text-[16px] leading-[1.7] text-text md:text-[18px]">
+          <p className="reveal mx-auto mt-md max-w-[54ch] text-justify font-body text-[16px] leading-[1.7] text-text md:text-[18px]">
             Neste mês, nossa clínica completa <strong className="font-semibold">7 anos</strong>.
             Para celebrar essa história, nasce o{" "}
             <strong className="font-semibold">PATI CONCEPT CLUB</strong> — nosso plano anual de
